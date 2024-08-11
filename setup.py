@@ -5,12 +5,13 @@ from wdecipher.utils import read_file
 requirements = [
     "setuptools",
     "pycryptodomex",
+    "loguru"
 ]
 
 setup(
     name="wdecipher",
     version=wdecipher.__version__,
-    python_requires=">=3.6",
+    python_requires=">=3.8",
     author="Chisheng Chen",
     author_email="chishengchen@126.com",
     url="https://github.com/gndlwch2w/wdecipher",
