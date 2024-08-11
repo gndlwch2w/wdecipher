@@ -13,8 +13,8 @@ except ImportError:
     from Crypto.Cipher import AES
 
 from typing import List, Dict, Optional
-from utils import listify, read_file, remove_file, identity
-from utils.sqlite import *
+from wdecipher.utils import listify, read_file, remove_file, identity
+from wdecipher.utils.sqlite import *
 
 __all__ = [
     "CORE_DB_TYPES",

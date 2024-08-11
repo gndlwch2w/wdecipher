@@ -1,5 +1,10 @@
 # WDecipher
 
+![Static Badge](https://img.shields.io/badge/Author-Chisheng%20Chen-blue)
+![PyPI - License](https://img.shields.io/pypi/l/pycinante)
+![GitHub last commit](https://img.shields.io/github/last-commit/gndlwch2w/wdecipher)
+![PyPI - Version](https://img.shields.io/pypi/v/wdecipher)
+
 WDecipher (Wechat Database dECIPER) is a third-party extension tool for WeChat that can decrypt WeChat SQLite databases and export and merge databases. This enables various backend extension services such as data analysis and model training to be implemented on it. 
 
 WDecipher is a compressed version of [PyWxDump](https://github.com/xaoyaoo/PyWxDump) with a small amount of code and interface optimization.

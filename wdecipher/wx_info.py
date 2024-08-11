@@ -4,9 +4,9 @@ import winreg
 import hashlib
 import hmac
 from typing import Dict, List, Optional, Any
-from wx_db import CORE_DB_TYPES, get_wx_dbs
-from utils import read_file, win_env_checker
-from utils.win32_process import *
+from wdecipher.wx_db import CORE_DB_TYPES, get_wx_dbs
+from wdecipher.utils import read_file, win_env_checker
+from wdecipher.utils.win32_process import *
 
 __all__ = [
     "get_wx_pids",
